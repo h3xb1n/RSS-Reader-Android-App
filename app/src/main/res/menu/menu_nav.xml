@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/nav_sources"
+        android:id="@+id/nav_sources"
+        android:icon="@android:drawable/ic_menu_send"
+        android:checkable="true"/>
+    <item
+        android:title="@string/nav_add_source"
+        android:id="@+id/nav_add_source"
+        android:icon="@android:drawable/ic_menu_send"
+        android:checkable="true"/>
+
+    <item android:title="@string/nav_categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_business"
+                    android:icon="@android:drawable/ic_menu_send"
+                    android:title="@string/nav_business" />
+                <item
+                    android:id="@+id/nav_entertainment"
+                    android:icon="@android:drawable/ic_menu_send"
+                    android:title="@string/nav_entertainment" />
+                <item
+                    android:id="@+id/nav_sport"
+                    android:icon="@android:drawable/ic_menu_send"
+                    android:title="@string/nav_sport" />
+                <item
+                    android:id="@+id/nav_technology"
+                    android:icon="@android:drawable/ic_menu_send"
+                    android:title="@string/nav_technology" />
+                <item
+                    android:id="@+id/nav_other"
+                    android:icon="@android:drawable/ic_menu_send"
+                    android:title="@string/nav_other" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/nav_about_rss_reader">
+        <menu>
+            <item
+                android:title="@string/nav_about"
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_menu_send"/>
+        </menu>
+    </item>
+</menu>

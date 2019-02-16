@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">RSSReader</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="application_name">RSS Reader</string>
+    <!--<string name="nav_all">All Feeds </string>-->
+    <string name="nav_add_source">Add Feed Source</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_business">Business</string>
+    <string name="nav_entertainment">Entertainment</string>
+    <string name="nav_sport">Sport</string>
+    <string name="nav_technology">Technology</string>
+    <string name="nav_other">Other</string>
+    <string name="nav_sources">View Feed Sources</string>
+    <string name="nav_about">About</string>
+    <string name="nav_about_rss_reader">About RSS Reader</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <string name="full_news">View Full News</string>
+    <string name="feed_url">Enter source url</string>
+    <string name="feed_name">Enter source name</string>
+    <string name="add_source">Add Source</string>
+    <string name="name">Source Name : </string>
+    <string name="url">Source URL : </string>
+
+    <string-array name="categories">
+        <item>Business</item>
+        <item>Entertainment</item>
+        <item>Sport</item>
+        <item>Technology</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="comment">App Developed By</string>
+    <string name="lm">Lalit Munne</string>
+    <string name="kd">Kaustubh Dane</string>
+    <string name="md">Manish Doble</string>
+    <string name="jb">Jay Bhoyar</string>
+</resources>
